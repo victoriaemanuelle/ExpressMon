@@ -1,0 +1,22 @@
+npm init -y                   |  set up package-lock.json  
+npm install                   |  set up package-lock 
+npm install express           |  express for the application
+npm i -D nodemon              |  nodemon para atualizar o server sempre que salvar a aplicaçao sem ter
+                                 de levantar o server novamente
+                                 create an start script on package.json to initialize the application with nodemon using 
+                                 on terminal only npm start     "start": "nodemon src/index.js"
+
+ 
+
+create new folder named src
+create new file named index.js
+
+porta http://localhost:3002/projects
+
+
+On Insomnia
+Create request collection
+Base Environment engine
+{"Base Url" : "http://localhost:3002/projects"}
++ http request
+set the url = ctrl space 
